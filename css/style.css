@@ -1,0 +1,28 @@
+.game {
+  width: 600px;
+  height: 600px;
+}
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.column {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+.x {
+  display: block;
+  height: 200px;
+  font-size: 150px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.o {
+  font-size: 150px;
+  font-weight: bold;
+  text-align: center;
+}
